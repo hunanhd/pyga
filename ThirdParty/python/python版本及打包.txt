@@ -1,0 +1,6 @@
+嵌入python需要一个近似完整的pythonhome环境，包括
+python27.dll、DLLs(*.pyd)、Lib(*.py和*.pyc)，
+
+为了避免git提交,将DLLs和Lib文件夹压缩成python27.zip,用的时候将python27.zip里面的DLLs和Lib文件夹解压出来，和python27.dll一起复制到x64/debug下
+
+注：目前这些文件都是从python目录下复制过来的，版本2.7.12
